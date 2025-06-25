@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#">
+
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="write your name" required>
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="write your email" required>
+        <br><br>
+
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" required>
+        <br><br>
+
+        <label for="password">Create Password: </label>
+        <input type="password" id="password" name="password" placeholder="enter password" required>
+        <br><br>
+
+        <label for="country">Country: </label>
+        <select id="country" name="country">
+            <option disabled selected>Select your country</option>
+            <option>Pakistan</option>
+            <option>USA</option>
+            <option>Australia</option>
+            <option>England</option>
+            <option>Canada</option>
+        </select>
+        <br><br>
+
+        <h4>Select your Subjects:</h4>
+        <label for="biology">Biology</label>
+        <input type="checkbox" id="biology" name="subjects" value="biology">
+
+        <label for="chemistry">Chemistry</label>
+        <input type="checkbox" id="chemistry" name="subjects" value="chemistry">
+
+        <label for="physics">Physics</label>
+        <input type="checkbox" id="physics" name="subjects" value="physics">
+
+        <label for="mathematics">Mathematics</label>
+        <input type="checkbox" id="mathematics" name="subjects" value="mathematics">
+
+        <label for="english">English</label>
+        <input type="checkbox" id="english" name="subjects" value="english">
+        <br><br>
+
+        <h4>Choose Religion:</h4>
+        <label for="muslim">Muslim:</label>
+        <input type="radio" id="muslim" name="religion" value="muslim">
+
+        <label for="non_muslim">Non-Muslim:</label>
+        <input type="radio" id="non_muslim" name="religion" value="non_muslim">
+        <br><br>
+
+        <label for="feedback">Feedback:</label>
+        <textarea name="feedback" id="feedback" rows="4"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
