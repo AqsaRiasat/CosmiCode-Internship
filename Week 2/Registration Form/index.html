@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Registration Form</h1>
+  <form action="#">
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Write your name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Write your email" required />
+
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" required />
+
+    <label for="password">Create Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter password" required />
+
+    <label for="country">Country</label>
+    <select id="country" name="country" required>
+      <option disabled selected>Select your country</option>
+      <option>Pakistan</option>
+      <option>USA</option>
+      <option>Australia</option>
+      <option>England</option>
+      <option>Canada</option>
+    </select>
+
+    <p class="section-title">Select your Subjects</p>
+    <div class="checkbox-group">
+      <input type="checkbox" id="biology" name="subjects" value="biology" />
+      <label for="biology">Biology</label>
+    </div>
+    <div class="checkbox-group">
+      <input type="checkbox" id="chemistry" name="subjects" value="chemistry" />
+      <label for="chemistry">Chemistry</label>
+    </div>
+    <div class="checkbox-group">
+      <input type="checkbox" id="physics" name="subjects" value="physics" />
+      <label for="physics">Physics</label>
+    </div>
+    <div class="checkbox-group">
+      <input type="checkbox" id="mathematics" name="subjects" value="mathematics" />
+      <label for="mathematics">Mathematics</label>
+    </div>
+    <div class="checkbox-group">
+      <input type="checkbox" id="english" name="subjects" value="english" />
+      <label for="english">English</label>
+    </div>
+
+    <p class="section-title">Choose Religion</p>
+    <div class="radio-group">
+      <input type="radio" id="muslim" name="religion" value="muslim" />
+      <label for="muslim">Muslim</label>
+    </div>
+    <div class="radio-group">
+      <input type="radio" id="non_muslim" name="religion" value="non_muslim" />
+      <label for="non_muslim">Non-Muslim</label>
+    </div>
+
+    <label for="feedback">Feedback</label>
+    <textarea id="feedback" name="feedback" rows="4" placeholder="Your feedback..."></textarea>
+
+    <button type="submit">Register</button>
+
+    <div class="signin">
+      Already have an account? <a href="#">Sign in here</a>
+    </div>
+  </form>
+</body>
+</html>
