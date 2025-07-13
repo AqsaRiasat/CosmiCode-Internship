@@ -1,0 +1,219 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.todo-app {
+  max-width: 420px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(145deg, #ffffff, #f6faff);
+}
+
+.todo-app h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  background: #fdfdfd;
+  transition: 0.3s ease;
+}
+
+#taskInput:focus {
+  outline: none;
+  border-color: #8e9eab;
+  box-shadow: 0 0 8px rgba(142, 158, 171, 0.5);
+}
+
+#addTaskBtn {
+  padding: 10px 16px;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#addTaskBtn:hover {
+  background: linear-gradient(to right, #5a67d8, #6b46c1);
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 20px;
+}
+
+.filters button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 8px 10px;
+  background: #edf2f7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #444;
+  transition: 0.3s ease;
+}
+
+.filters .active {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+}
+
+ul#taskList {
+  list-style: none;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 0;
+}
+
+li {
+  background: linear-gradient(to right, #f9f9f9, #f0f0f0);
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+li.completed {
+  background: linear-gradient(to right, #a8edea, #fed6e3);
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #6a6a6a;
+}
+
+li span {
+  flex: 1;
+  cursor: pointer;
+}
+
+li button {
+  background-color: #ff6b6b;
+  border: none;
+  padding: 6px 10px;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li button:hover {
+  background-color: #e63b3b;
+}
+
+.clear-btn {
+  margin-top: 14px;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.clear-btn:hover {
+  background: linear-gradient(to right, #ff6a88, #ff99ac);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  padding: 15px 0;
+}
+
+/* Dark Mode */
+body.dark {
+  background: linear-gradient(to bottom right, #141e30, #243b55);
+  color: #f1f1f1;
+}
+
+body.dark .todo-app {
+  background: #2a2a40;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+body.dark input,
+body.dark .filters button,
+body.dark li {
+  background: #3e3e57;
+  color: #f1f1f1;
+  border-color: #555;
+}
+
+body.dark li.completed {
+  background: linear-gradient(to right, #485563, #29323c);
+  color: #ccc;
+}
+
+body.dark li.completed span {
+  color: #b5b5b5;
+}
+
+body.dark #addTaskBtn,
+body.dark .filters .active,
+body.dark .clear-btn {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+body.dark li button {
+  background-color: #ff5e78;
+}
+
+body.dark footer {
+  color: #aaa;
+}
+
+.theme-toggle {
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+body.dark .theme-toggle {
+  color: #f1f1f1;
+}

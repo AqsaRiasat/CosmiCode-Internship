@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="todo-app">
+    <h1>To-Do App</h1>
+
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <button id="addTaskBtn">Add</button>
+    </div>
+
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="completed">Completed</button>
+      <button data-filter="pending">Pending</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <button id="clearAllBtn" class="clear-btn">Clear All</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aqsa Riyasat — Internship Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
