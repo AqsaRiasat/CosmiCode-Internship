@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  padding: 25px 0;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.reload-btn {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  border: none;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.reload-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.user-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 280px;
+  transition: all 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.user-card h3 {
+  margin-top: 0;
+  color: #ff7e5f;
+}
+
+.user-card p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
