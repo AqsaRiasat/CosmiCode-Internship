@@ -1,0 +1,9 @@
+/* Custom styling (if needed) */
+
+body {
+  scroll-behavior: smooth;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Utility Demo</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="min-h-screen flex items-center justify-center p-6 custom-bg text-gray-800 leading-relaxed">
+
+  <section class="w-full max-w-xl p-8 bg-white/60 backdrop-blur-md rounded-2xl shadow-2xl border border-white/30 transition-all duration-300">
+    
+    <h1 class="text-4xl font-bold text-indigo-700 mb-4 text-center tracking-tight">
+      Tailwind Utility Showcase
+    </h1>
+
+    <p class="text-base text-gray-700 mb-6 text-center leading-relaxed">
+      A modern layout using Tailwind CSS utility classes for <span class="font-semibold text-indigo-600">spacing</span>, <span class="font-semibold text-indigo-600">typography</span>, and <span class="font-semibold text-indigo-600">color</span>. Built with simplicity and responsiveness in mind.
+    </p>
+
+    <div class="flex justify-center space-x-4">
+      <button id="start-btn" class="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition duration-300">
+        Get Started
+      </button>
+      <button class="border border-indigo-500 text-indigo-600 px-6 py-2 rounded-lg font-medium hover:bg-indigo-100 transition duration-300">
+        Learn More
+      </button>
+    </div>
+
+    <!-- Hidden Message -->
+    <p id="message" class="mt-6 text-green-600 font-medium text-center hidden">You're all set to begin 🚀</p>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

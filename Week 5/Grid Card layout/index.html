@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Card</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-100">
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+
+      <!-- Card Start -->
+      <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <img src="mountain.jpg" alt="Card Image" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h2 class="text-xl font-semibold mb-2 card-title">Mountain Escape</h2>
+            <p class="text-gray-600 mb-4">Explore the scenic views of the mountains and enjoy peaceful surroundings.</p>
+            <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">Explore</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card End -->
+
+    </div>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

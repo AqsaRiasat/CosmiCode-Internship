@@ -1,0 +1,5 @@
+/* Custom font and background */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e4ecf7);
+}
