@@ -2,6 +2,9 @@
 
 This is a fully responsive, visually modern **portfolio website** designed and developed as part of my **internship capstone project**. It is built using HTML, CSS, and JavaScript and showcases my skills, projects, and services in a clean and interactive way.
 
+Live Demo:
+👉 [Click to Open Live Site](https://aqsariyasat.github.io/CosmiCode-Internship/)
+
 
 ##  Features
 
