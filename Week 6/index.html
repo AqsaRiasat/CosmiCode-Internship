@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+           <h3>Hello, It's Me</h3>
+           <h1>Lea Verou</h1>
+           <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+           <p>I'm a passionate Frontend Developer with a knack for creating clean, responsive, and engaging user interfaces. I specialize in turning ideas into digital experiences.</p>
+           <div class="social-media">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+           </div>
+           <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I'm Lea Verou, a dedicated Frontend Developer with strong skills in HTML, CSS, and JavaScript. With a focus on responsive design and performance, I aim to craft seamless web experiences that are both functional and visually appealing. I enjoy learning new technologies and collaborating on creative projects that make a real impact.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--Service section design-->
+    <section class="Services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>I develop responsive websites using modern technologies like HTML5, CSS3, JavaScript, and frameworks to ensure high performance across all devices.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+               <i class="bx bx-paint"></i>
+               <h3>UI/UX Design</h3>
+               <p>I create intuitive and aesthetically pleasing designs that enhance user interaction and overall experience across websites and applications.</p>
+               <a href="#" class="btn">Read More</a>
+           </div>
+           <div class="service-box">
+              <i class="bx bx-bar-chart-alt"></i>
+              <h3>Digital Marketing</h3>
+              <p>I help optimize online presence by implementing SEO best practices and digital strategies to attract and retain users effectively.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="project 1">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>A modern web design built for performance and visual appeal with clean layouts and responsive elements.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>UI/UX Design</h4>
+                    <p>Engaging UI/UX design prototype focused on enhancing user experience and usability for mobile and desktop.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+               </div>
+            </div>
+            <div class="portfolio-box">
+               <img src="images/portfolio3.jpg" alt="Project 3">
+               <div class="portfolio-layer">
+                   <h4>Responsive Website</h4>
+                   <p>A fully responsive website that adapts flawlessly to different screen sizes, ensuring accessibility for all users.</p>
+                   <a href="#"><i class="bx bx-link-external"></i></a>
+               </div>
+            </div>
+            <div class="portfolio-box">
+               <img src="images/portfolio4.jpg" alt="Project 4">
+               <div class="portfolio-layer">
+                   <h4>Landing Page</h4>
+                   <p>A high-converting landing page created for a marketing campaign, optimized for speed and SEO.</p>
+                   <a href="#"><i class="bx bx-link-external"></i></a>
+               </div>
+           </div>
+           <div class="portfolio-box">
+            <img src="images/portfolio5.jpg" alt="Project 5">
+            <div class="portfolio-layer">
+                <h4>Graphic Design</h4>
+                <p>A creative graphic design project showcasing branding elements and modern digital aesthetics.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div> 
+           </div>
+            
+            <div class="portfolio-box">
+               <img src="images/portfolio6.jpg" alt="Project 6">
+               <div class="portfolio-layer">
+                   <h4>Marketing Website</h4>
+                   <p>A marketing-focused website with strategically placed CTAs and engaging visuals to drive user action.</p>
+                   <a href="#"><i class="bx bx-link-external"></i></a>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="10" rows="30" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!---footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Aqsa Riyasat | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!---typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ 
+    <!--Custom js-->
+    <script src="script.js"></script>
+</body>
+</html>
