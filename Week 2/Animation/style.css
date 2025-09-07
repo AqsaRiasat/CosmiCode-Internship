@@ -1,14 +1,24 @@
+body {
+    background: #ECF0F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px;
+}
+
 .animated_btn {
     padding: 15px 30px;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
-    background-color: #2C3E50;
+    background-color: #03376e;
     border: none;
     color: #ECF0F1;
     font-size: 25px;
     transition: all 0.3s ease;
     animation: pulse 2s infinite;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
 
 }
 
